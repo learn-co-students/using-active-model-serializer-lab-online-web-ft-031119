@@ -41,7 +41,9 @@ group :development, :test do
   gem 'capybara'
   gem 'faker'
   gem 'shoulda'
-  gem 'poltergeist', '~> 1.14.0'end
+  gem 'poltergeist', '~> 1.14.0'
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'end
+  
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
